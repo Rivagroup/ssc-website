@@ -85,3 +85,10 @@ ul.nav .nav-link:focus,
 ul.nav .nav-link:hover {
     color: black;
 }
+
+.img-responsive-height
+{
+  display: block;
+  width: auto;
+  max-height: 100%
+}
