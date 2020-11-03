@@ -27,7 +27,6 @@
             </a>
         </nav>
     </div>
-    <!-- div class="gradient-bar gradient-bar-alt gradient-bar-animated"></div-->
     <div class="container-fluid mb-5 mb-md-0">
         <div class="container content mb-5 mb-md-0">
             <div id="sccCarousel" class="carousel slide pt-3" data-ride="carousel">
@@ -148,6 +147,27 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div>
+            
+            <div class="card shadow-sm text-white bg-danger my-3" style="width: auto;">
+                <img src="assets/images/Corona.jpg" class="card-img-top" alt="China-Virus">
+                <div class="card-body">
+                <h4 class="card-title text-uppercase"><i class="fas fa-viruses"></i> COVID-19 INFORMATIONEN</h4>
+                    <div class="card-text text-justify text-white">           
+                    <?php
+                        $url = 'https://spielcenter-chemnitz.de/corona.html';
+                        $content = file_get_contents($url);
+
+                        $doc = new DOMDocument();
+                        $doc->loadHtml($content);
+
+                        echo $content;
+                    ?>
+                    </div>
+                </div>
+                <div class="card-footer d-flex flex-column">
+                    <a href="hygienekonzept.html" class="btn btn-danger mt-auto"><i class="fas fa-shield-virus"></i> aktuelles Hygiene-Konzept</a>
+                </div>
             </div>
 
             <div class="card-deck pt-4 pb-4">
