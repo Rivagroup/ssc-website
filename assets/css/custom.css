@@ -15,6 +15,16 @@ img.filtered {
     filter: blur(0.2em);
 }
 
+.filtereffect img{    
+    filter: grayscale(100%);
+    transition: filter 0.8s ease;
+}
+
+.filtereffect:hover img{    
+    filter: grayscale(0%);
+    transition: filter 0.4s ease;
+}
+
 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
@@ -74,4 +84,11 @@ ul.nav .nav-link:active,
 ul.nav .nav-link:focus,
 ul.nav .nav-link:hover {
     color: black;
+}
+
+.img-responsive-height
+{
+  display: block;
+  width: auto;
+  max-height: 100%
 }
