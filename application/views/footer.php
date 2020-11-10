@@ -1,6 +1,6 @@
-<div class="bg-light footer text-center bg-white mb-4 mt-3">
+<div class="footer text-center">
     <div class="gradient-bar gradient-bar-alt gradient-bar-animated my-3"></div>
-    <div class="container bg-white text-left text-muted">
+    <div class="container text-left text-muted">
         <small class="row">
             <div class="col-6">
                 <address>
