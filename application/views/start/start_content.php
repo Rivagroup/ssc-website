@@ -109,20 +109,51 @@
 </div>
 
 <div class="card-deck pt-3">
-    <div class="card bg-white filtereffect">
-        <img class="card-img" src="/assets/images/startseite_bowling.png" alt="teaser bowling">
-        <a href="https://bowling-chemnitz.de" class="stretched-link"></a>
+    <div class="card">
+        <div class="bg-white filtereffect">
+            <img class="card-img-top" src="/assets/images/startseite_bowling.png" alt="teaser bowling" />
+        </div>
+        <div class="card-body small">
+            blubber
+        </div>
+        <div class="card-footer">
+            <a href="https://bowling-chemnitz.de" class="btn d-block btn-primary">Bowling Chemnitz</a>
+        </div>
     </div>
-    <div class="card bg-white filtereffect">
-        <img class="card-img" src="/assets/images/startseite_escape.png" alt="teaser escape">
-        <a href="https://escaperoom-chemnitz.de" class="stretched-link"></a>
+
+    <div class="card">
+        <div class="bg-white filtereffect">
+            <img class="card-img-top" src="/assets/images/startseite_escape.png" alt="teaser escape">
+        </div>
+        <div class="card-body small">
+            blubber
+        </div>
+        <div class="card-footer">
+            <a href="https://escaperoom-chemnitz.de" class="btn d-block btn-primary">Escaperoom Chemnitz</a>
+        </div>
     </div>
-    <div class="card bg-white filtereffect">
-        <img class="card-img" src="/assets/images/startseite_lasertag.png" alt="teaser laser">
-        <a href="https://lasergame-chemnitz.de" class="stretched-link"></a>
+
+    <div class="card">
+        <div class="bg-white filtereffect">
+            <img class="card-img-top" src="/assets/images/startseite_lasertag.png" alt="teaser laser">
+        </div>
+        <div class="card-body small">
+            blubber
+        </div>
+        <div class="card-footer">
+            <a href="https://lasergame-chemnitz.de" class="btn d-block btn-primary">Lasergame Chemnitz</a>
+        </div>
     </div>
-    <div class="card bg-white filtereffect">
-        <img class="card-img" src="/assets/images/startseite_minigolf.png" alt="teaser minigolf">
-        <a href="https://minigolf-chemnitz.de" class="stretched-link"></a>
+
+    <div class="card">
+        <div class="bg-white filtereffect">
+            <img class="card-img-top" src="/assets/images/startseite_minigolf.png" alt="teaser minigolf">
+        </div>
+        <div class="card-body small">
+            blubber
+        </div>
+        <div class="card-footer">
+            <a href="https://minigolf-chemnitz.de" class="btn d-block btn-primary">Minigolf Chemnitz</a>
+        </div>
     </div>
 </div>

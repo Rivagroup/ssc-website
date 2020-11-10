@@ -5,7 +5,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 include_once(APPPATH . 'controllers/MY_ContentController.php');
 
 
-class Start extends MY_ContentController
+class Karte extends MY_ContentController
 {
 
     public function __construct()
@@ -19,8 +19,8 @@ class Start extends MY_ContentController
         foreach ($this->meta as $meta => $daten) {
             $data[$meta] = $daten;
         }
-        $data['title'] .= '- Willkommen';
-        $data['main_content'] = 'start/start_content';
+        $data['title'] .= '- Anfahrt Karte';
+        $data['main_content'] = 'karte/karte_content';
         $this->load->view('template', $data);
     }
 }
