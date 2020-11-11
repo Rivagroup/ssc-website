@@ -7,7 +7,7 @@
     <div class="card-body">
         <h1 class="card-title">Anfahrt Karte</h1>
         <h2>Öffentliche Verkehrsmittel</h2>
-        <p class="card-text h1">
+        <p class="card-text h2">
             <span class="badge badge-primary">CVAG</span>
             <span class="badge badge-pill badge-success"><i class="fas fa-subway"></i> 4</span>
             <span class="badge badge-pill badge-success"><i class="fas fa-subway"></i> 5</span>

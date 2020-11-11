@@ -12,11 +12,12 @@
                     Angebote
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="<?= base_url('angebote/kindergeburtstag'); ?>">Kindergeburtstag</a>
                     <a class="dropdown-item" href="<?= base_url('angebote/ferientickets'); ?>">Ferientickets</a>
-                    <a class="dropdown-item" href="#">Weihnachtfeiern</a>
-                    <a class="dropdown-item" href="#">Firmenfeiern/Teambuilding</a>
-                    <a class="dropdown-item" href="#">Junggesellenabschiede</a>                    
+                    <a class="dropdown-item" href="<?= base_url('angebote/firmen'); ?>">Firmenfeiern/Teambuilding</a>
+                    <a class="dropdown-item" href="<?= base_url('angebote/junggesellenabschiede'); ?>">Junggesellenabschiede</a>
+                    <a class="dropdown-item" href="<?= base_url('kombi'); ?>">Kombinationspakete</a>
+                    <a class="dropdown-item" href="<?= base_url('angebote/schuelertickets'); ?>">Schülertickets</a>
+                    <a class="dropdown-item" href="<?= base_url('angebote/weihnachtfeiern'); ?>">Weihnachtfeiern</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -35,9 +36,9 @@
                     Gastronomie
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Buffet</a>
-                    <a class="dropdown-item" href="#">Catering</a>
-                    <a class="dropdown-item" href="#">Partyplatten</a>
+                    <a class="dropdown-item" href="<?= base_url('gastronomie/buffets'); ?>">Buffets</a>
+                    <a class="dropdown-item" href="<?= base_url('gastronomie/Catering'); ?>">Catering</a>
+                    <a class="dropdown-item" href="<?= base_url('gastronomie/Partyplatten'); ?>">Partyplatten</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -45,10 +46,10 @@
                     Veranstaltungen
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">All You Can Tag</a>
+                    <a class="dropdown-item" href="https://lasergame-chemnitz.de/angebote/allyoucantag" target="_blank">All You Can Tag</a>
                     <a class="dropdown-item" href="#">Bowling Brunch</a>
                     <a class="dropdown-item" href="#">Jackpot-Bowling</a>
-                    <a class="dropdown-item bg-warning" href="#">Silvester 2020/21</a>
+                    <a class="dropdown-item bg-warning" href="<?= base_url('silvester'); ?>">Silvester 2020/21</a>
                     <a class="dropdown-item" href="#">The Walking Pin</a>
                 </div>
             </li>

@@ -110,50 +110,50 @@
 
 <div class="card-deck pt-3">
     <div class="card">
-        <div class="bg-white filtereffect">
+        <div class="bg-white filtereffect h-100 d-flex flex-column justify-content-between">
             <img class="card-img-top" src="/assets/images/startseite_bowling.png" alt="teaser bowling" />
-        </div>
-        <div class="card-body small">
-            blubber
-        </div>
-        <div class="card-footer">
-            <a href="https://bowling-chemnitz.de" class="btn d-block btn-primary">Bowling Chemnitz</a>
+            <div class="card-body small">
+            Das Bowling Center für Chemnitz/Sachsen ✓ Günstig bowlen auf der größten Bowlingbahn in Chemnitz ☆, Bereits über 20000 zufriedene Bowling - Gäste!
+            </div>
+            <div class="card-footer">
+                <a href="https://bowling-chemnitz.de" class="btn d-block btn-primary">Bowling Chemnitz</a>
+            </div>
         </div>
     </div>
 
     <div class="card">
-        <div class="bg-white filtereffect">
+        <div class="bg-white filtereffect h-100 d-flex flex-column justify-content-between">
             <img class="card-img-top" src="/assets/images/startseite_escape.png" alt="teaser escape">
-        </div>
-        <div class="card-body small">
-            blubber
-        </div>
-        <div class="card-footer">
-            <a href="https://escaperoom-chemnitz.de" class="btn d-block btn-primary">Escaperoom Chemnitz</a>
+            <div class="card-body small">
+            Escaperoom Chemnitz Lasst im Escaperoom Chemnitz den grauen Alltag hinter Euch. Taucht ein in unsere geheimnisvollen Spiele und werdet Teil eines unvergesslichen Erlebnisses!
+            </div>
+            <div class="card-footer">
+                <a href="https://escaperoom-chemnitz.de" class="btn d-block btn-primary">Escaperoom Chemnitz</a>
+            </div>
         </div>
     </div>
 
     <div class="card">
-        <div class="bg-white filtereffect">
+        <div class="bg-white filtereffect h-100 d-flex flex-column justify-content-between">
             <img class="card-img-top" src="/assets/images/startseite_lasertag.png" alt="teaser laser">
-        </div>
-        <div class="card-body small">
-            blubber
-        </div>
-        <div class="card-footer">
-            <a href="https://lasergame-chemnitz.de" class="btn d-block btn-primary">Lasergame Chemnitz</a>
+            <div class="card-body small">
+            Höchster Spaßfaktor und absolutes Highlight auf 900m² Spielfläche. Das Beste was Chemnitz zu bieten hat. Sitzt du noch, oder spielst du schon? Nichts für Couch-Potatos!
+            </div>
+            <div class="card-footer">
+                <a href="https://lasergame-chemnitz.de" class="btn d-block btn-primary">Lasergame Chemnitz</a>
+            </div>
         </div>
     </div>
 
     <div class="card">
-        <div class="bg-white filtereffect">
+        <div class="bg-white filtereffect h-100 d-flex flex-column justify-content-between">
             <img class="card-img-top" src="/assets/images/startseite_minigolf.png" alt="teaser minigolf">
-        </div>
-        <div class="card-body small">
-            blubber
-        </div>
-        <div class="card-footer">
-            <a href="https://minigolf-chemnitz.de" class="btn d-block btn-primary">Minigolf Chemnitz</a>
+            <div class="card-body small">
+            Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Wandmotiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen.
+            </div>
+            <div class="card-footer">
+                <a href="https://minigolf-chemnitz.de" class="btn d-block btn-primary">Minigolf Chemnitz</a>
+            </div>
         </div>
     </div>
 </div>

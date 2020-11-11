@@ -14,10 +14,10 @@ class MY_ContentController extends CI_Controller
 
 		$this->meta['keywords_private'] = '';
 
-		$this->meta['keywords_alldomains'] = 'chemnitz,spielcenter,escaperoom,exitgame,lasertag,lasermaxx,minigolf,schwarzlicht,adventure,freizeit';
+		$this->meta['keywords_alldomains'] = 'chemnitz,spielcenter,escaperoom,exitgame,lasertag,lasermaxx,minigolf,schwarzlicht,adventure,freizeit,bowling';
 
 		$this->meta['author'] = "Oliver Oehme";
-		$this->meta['co_author'] = "Mario Franke";
+		$this->meta['co_author'] = "";
 		$this->meta['cache'] = "no-cache";
 		$this->meta['robots'] = "index,follow,noarchive";
 
