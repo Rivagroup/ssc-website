@@ -12,12 +12,13 @@
                     Angebote
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="<?= base_url('angebote/ferientickets'); ?>">Ferientickets</a>
-                    <a class="dropdown-item" href="<?= base_url('angebote/firmen'); ?>">Firmenfeiern/Teambuilding</a>
-                    <a class="dropdown-item" href="<?= base_url('angebote/junggesellenabschiede'); ?>">Junggesellenabschiede</a>
                     <a class="dropdown-item" href="<?= base_url('kombi'); ?>">Kombinationspakete</a>
-                    <a class="dropdown-item" href="<?= base_url('angebote/schuelertickets'); ?>">Schülertickets</a>
-                    <a class="dropdown-item" href="<?= base_url('angebote/weihnachtfeiern'); ?>">Weihnachtfeiern</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item disabled" href="#">Ferientickets</a>
+                    <a class="dropdown-item disabled" href="#">Firmenfeiern/Teambuilding</a>
+                    <a class="dropdown-item disabled" href="#">Junggesellenabschiede</a>
+                    <a class="dropdown-item disabled" href="#">Schülertickets</a>
+                    <a class="dropdown-item disabled" href="#">Weihnachtfeiern</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -36,9 +37,9 @@
                     Gastronomie
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="<?= base_url('gastronomie/buffets'); ?>">Buffets</a>
-                    <a class="dropdown-item" href="<?= base_url('gastronomie/Catering'); ?>">Catering</a>
-                    <a class="dropdown-item" href="<?= base_url('gastronomie/Partyplatten'); ?>">Partyplatten</a>
+                    <a class="dropdown-item" href="<?= base_url('buffet'); ?>">Buffets</a>
+                    <a class="dropdown-item disabled" href="#">Catering</a>
+                    <a class="dropdown-item disabled" href="#">Partyplatten</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -47,10 +48,11 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="https://lasergame-chemnitz.de/angebote/allyoucantag" target="_blank">All You Can Tag</a>
-                    <a class="dropdown-item" href="#">Bowling Brunch</a>
-                    <a class="dropdown-item" href="#">Jackpot-Bowling</a>
                     <a class="dropdown-item bg-warning" href="<?= base_url('silvester'); ?>">Silvester 2020/21</a>
-                    <a class="dropdown-item" href="#">The Walking Pin</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item disabled" href="#">Bowling Brunch</a>
+                    <a class="dropdown-item disabled" href="#">Jackpot-Bowling</a>
+                    <a class="dropdown-item disabled" href="#">The Walking Pin</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -59,14 +61,14 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="<?= base_url('karte'); ?>">Karte</a>
-                    <a class="dropdown-item" href="#">Navigieren</a>
+                    <a class="dropdown-item" href="http://maps.apple.com/?q=Spielcenter+Chemnitz" target="_blank">Navigieren</a>
                 </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link mx-3" href="https://shop.spielcenter-chemnitz.de/" target="_blank"><b>Shop</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn btn-primary text-white" href="#" target="_blank">Jetzt Buchen</a>
+                <a class="nav-link btn btn-primary text-white disabled" href="#" target="_blank">Jetzt Buchen</a>
             </li>
         </ul>
     </div>

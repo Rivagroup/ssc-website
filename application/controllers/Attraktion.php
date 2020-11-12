@@ -28,6 +28,11 @@ class Attraktion extends MY_ContentController
         $data['attraktionTitle'] = "Bowling Chemnitz";
         $data['attraktionDesc'] = "Bowling Chemnitz steht für Bowlingspaß pur - egal ob mit Freunden, Familie oder Kolleg(inn)en. Spiel, Sport und Vergnügen für Groß und Klein, Jung und Alt, für Freizeit- und Profispieler gleichermaßen.";
         $data['attraktionUrl'] = "https://bowling-chemnitz.de";
+        $data['attraktionGallery'] = [
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_bowling.png"), 'alt' => "Bowling Chemnitz - Bowlingbahnen"),
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_bowling2.png"), 'alt' => "Bowling Chemnitz - Eingangsbereich"),
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_bowling4.png"), 'alt' => "Bowling Chemnitz - Bowlingbahn")
+        ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
     }
@@ -40,8 +45,12 @@ class Attraktion extends MY_ContentController
         $data['title'] .= '- Adventure Minigolf Chemnitz';
         $data['attraktionHeaderImageUrl'] = base_url("/assets/images/slider_golf.jpg");
         $data['attraktionTitle'] = "Adventure Minigolf Chemnitz";
-        $data['attraktionDesc'] = "Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Wandmotiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen. Der Freizeitspaß ist natürlich wetter unabhängig und eignet sich daher sehr gut ganzjährig für gemeinsame Aktivitäten mit Freunden und Familie, für Junggesellenabschiede, Geburtstag oder auch Firmenevents.";
+        $data['attraktionDesc'] = "Erlebt die erste Schwarzlicht Minigolf Anlage mit einer Fläche von 500m2 nun auch in Chemnitz. Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Motiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen. Der Freizeitspaß ist natürlich wetterunabhängig und eignet sich daher sehr gut ganzjährig für gemeinsame Aktivitäten, egal ob Junggesellenabschied, Geburtstag, Familienausflug.";
         $data['attraktionUrl'] = "https://minigolf-chemnitz.de";
+        $data['attraktionGallery'] = [
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_minigolf.png"), 'alt' => "Adventure Minigolf Chemnitz - Spielfeld 1"),
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_minigolf2.png"), 'alt' => "Adventure Minigolf Chemnitz - Spielfeld 2")
+        ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
     }
@@ -54,8 +63,12 @@ class Attraktion extends MY_ContentController
         $data['title'] .= '- Escaperoom Chemnitz';
         $data['attraktionHeaderImageUrl'] = base_url("/assets/images/slider_escape.jpg");
         $data['attraktionTitle'] = "Escaperoom Chemnitz";
-        $data['attraktionDesc'] = "Entschlüsselt die Rätsel unserer Räume, sucht und kombiniert dafür versteckte Hinweise. Denkt logisch und seid kreativ! Nur durch gute Teamarbeit und Taktik habt Ihr eine Chance das Szenario zu lösen und aus dem Gefängnis auszubrechen, die Welt zu retten oder das Geheimnis um die gruselige Psychiatrie zu lösen.<br/><br/>Aber keine Angst, wenn ihr völlig auf dem Schlauch steht, kleine Hilfestellungen von uns sind möglich. Gerne gehen wir auch individuell auf die „erfahrenen Spieler“ ein. Wenn Ihr keine oder nur wenige Hinweise wollt, so sagt uns dies einfach im Vorfeld. Solltet Ihr die Lösung nicht rechtzeitig parat haben, müsst Ihr natürlich nicht auf ewig im Raum bleiben. Wir befreien Euch am Ende… vielleicht.";
+        $data['attraktionDesc'] = "Egal wie man es nennt, Escape Room, Exit Games oder Live Escape Games ist ein neues Freizeitangebot. Dieser Trend ist seit geraumer Zeit global verbreitet Bei der Lösung der Rätsel und Aufgaben ist Teamarbeit gefragt. Dabei können man logisches und um-die-Ecke-Denken, Fingerfertigkeit, das Kombinieren von Hinweisen und gute Kommunikation ausschlag gebend für das Bestehen ";
         $data['attraktionUrl'] = "https://escaperoom-chemnitz.de";
+        $data['attraktionGallery'] = [
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_esc_knast.png"), 'alt' => "Escaperoom Chemnitz - Prison Break"),
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_esc_psych.png"), 'alt' => "Escaperoom Chemnitz - Psychiatrie")
+        ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
     }
@@ -68,8 +81,11 @@ class Attraktion extends MY_ContentController
         $data['title'] .= '- Lasergame Chemnitz';
         $data['attraktionHeaderImageUrl'] = base_url("/assets/images/slider_laser.jpg");
         $data['attraktionTitle'] = "Lasergame Chemnitz";
-        $data['attraktionDesc'] = "Höchster Spaßfaktor und absolutes Highlight auf 900m² Spielfläche. Das Beste was Chemnitz zu bieten hat. Sitzt du noch, oder spielst du schon? Nichts für Couch-Potatos!";
+        $data['attraktionDesc'] = "Durch unser geschultes Personal erfolgt vor der ersten Spielpartie eine Einweisung zur Funktionsweise der gesamten Lasermaxx-Hardware. Nach dieser Einführung in das System geht es mit dem aktiven Spiel los. Jeweils nach Spielende gibt es eine Auswertung, bei welcher der beste Spieler oder das beste Team ermittelt und benannt wird. Nach jedem Spiel haben Sie die Möglichkeit eine kleine Pause von etwa 10-15 Minuten zu nehmen. ";
         $data['attraktionUrl'] = "https://lasergame-chemnitz.de";
+        $data['attraktionGallery'] = [
+            array('url' => base_url("/assets/images/slider_fotos spielcenter_lasertag.png"), 'alt' => "Lasergame Chemnitz - Spielfeld 900m²")
+        ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
     }

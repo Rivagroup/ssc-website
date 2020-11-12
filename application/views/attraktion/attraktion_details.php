@@ -31,6 +31,12 @@
 
   <div class="card-body">
     <p class="card-text"><?= $attraktionDesc; ?></p>
+    <?php foreach($attraktionGallery as $image): ?>
+      <figure class="figure">
+        <img src="<?= $image['url']; ?>" class="figure-img img-fluid rounded" alt="<?= $image['alt']; ?>">
+        <figcaption class="figure-caption"><?= $image['alt']; ?></figcaption>
+      </figure>
+    <?php endforeach; ?>
   </div>
   <div class="card-footer">
     <a href="<?= $attraktionUrl; ?>" target="_blank" class="btn btn-primary d-block">weitere Informationen</a>
