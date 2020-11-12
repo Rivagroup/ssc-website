@@ -6,8 +6,9 @@ class Buffet_model extends CI_Model
     private $buffets = [
         array(
             'title' => 'Americano',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array("Macaroni Salad", "Cowlslaw", "Bic Mäc Salad"),
             'entree' => array("hausgemachte Spare-Ribs", "Chicken Nuggets", "selfmade” Burger - Corner", "Chili con Carne", "Baked Beans", "gegrillte Maiskolben", "Ofenkartoffeln mit SourCreme", "Süßkartoffel-Pommes", "Kartoffelspalten", "Honey Mustard~ / SourCreme~ / Meerrettich-Knoblauch Dip"),
             'dessert' => array("Frische Obstplatte", "Mini-Donuts & Mini-Muffins"),
@@ -20,8 +21,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Avantgarde',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Kartoffel-Avocado-Salat mit Kresse",
                 "Zucchini-Carpaccio mit Ingwer-Vinaigrette",
@@ -51,8 +53,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'El Americano',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Auswahl von frischem Brot & Brötchen",
                 "Asia-Bratnudel auf Sticks direkt auch China-Town",
@@ -78,8 +81,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Heilige Nacht',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Schwarzwurzelrahmsuppe mit roter Beete",
                 "Reibekuchen mit Räucherlachs und Salatgarnitur",
@@ -103,8 +107,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Italienisch',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Tomate-Mozzarella mit frischem Basilikum",
                 "mediterrane Gemüseplatte",
@@ -132,8 +137,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Mr. President',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Auswahl von frischem Brot & Brötchen",
                 "Blattsalate der Saison mit Ceasar~, Yoghurt~ und Honey-Mustard-Dressing",
@@ -161,8 +167,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Perfect Game',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Tomate-Mozzarella mit frischem Basilikum",
                 "gefüllte Peperoni, Tomaten & Champignons",
@@ -190,8 +197,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Pure Burger',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Cowlslaw",
                 "Bic Mäc Salad"
@@ -216,8 +224,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Running Man',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "bunter, frischer gemischter Salat",
                 "Kartoffelsalat mit Radieschen und Lauch",
@@ -247,8 +256,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Rustikales Buffet',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Hausgemachte Fleischpflanzerl",
                 "Kalter Schweinebraten mit Meerrettich",
@@ -276,8 +286,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Schulanfänger',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Tomate-Mozarella-Platte",
                 "bunte gemischte Gemüse-Stick-Platte",
@@ -309,8 +320,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Vital',
+            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
             'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/400/',
+            'img' => 'http://lorempixel.com/640/240/',
             'starter' => array(
                 "Antipasti-Salat mit Schafskäse und Pesto-Dressing",
                 "Salat mit Birnen, Zwiebeln und Blauschimmelkäse",

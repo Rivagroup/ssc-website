@@ -6,7 +6,7 @@
             <div class="card-body">
                 <h2 class="card-title h4"><?= $buffet['title']; ?></h2>
                 <div class="card-text small">
-                    <?= $buffet['desc']; ?>
+                    <?= $buffet['teaser']; ?>
                 </div>
             </div>
             <div class="card-footer">
