@@ -1,10 +1,6 @@
 @import "custom.img.css";
 @import "custom.bar.css";
 
-.content {
-    margin-bottom: 5em !important;
-}
-
 img.filtered {
     position: absolute;
     left:-1%;
