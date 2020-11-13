@@ -39,6 +39,6 @@
     <?php endforeach; ?>
   </div>
   <div class="card-footer">
-    <a href="<?= $attraktionUrl; ?>" target="_blank" class="btn btn-primary d-block">weitere Informationen</a>
+    <a href="<?= $attraktionUrl; ?>" target="_blank" class="btn btn-primary d-block">weitere Informationen <i class="small fas fa-external-link-alt"></i></a>
   </div>
 </div>
