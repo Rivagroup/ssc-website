@@ -14,7 +14,7 @@
             <div class="col-4 mr-0 mx-auto">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link text-muted" href="https://www.chemnitz.de/chemnitz/de/leben-in-chemnitz/gesundheit/gesundheitsschutz/coronavirus/index.html" target="_blank"><i class="fas fa-head-side-virus"></i> COVID19</a>
+                        <a class="nav-link text-muted" href="<?= base_url('/corona'); ?>"><i class="fas fa-shield-virus"></i> COVID-19</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-muted" href="<?= base_url('/hygienekonzept'); ?>"><i class="fas fa-shield-virus"></i> HYGIENE</a>

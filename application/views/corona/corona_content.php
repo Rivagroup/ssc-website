@@ -1,0 +1,103 @@
+<div class="card shadow-sm text-white bg-danger my-3" style="width: auto;">
+    <img src="<?= base_url('assets/images/Corona.jpg'); ?>" class="card-img-top" alt="China-Virus">
+    <div class="card-body">
+        <h4 class="card-title text-uppercase"><i class="fas fa-viruses"></i> COVID-19 INFORMATIONEN</h4>
+        <div class="card-text text-justify text-white">
+            <h5>Aktuelle Statistik zum Infektions-Geschehen im Spielcenter-Chemnitz</h5>
+            <p class="small">seit Erklärung zur Pandemie am 11. März 2020 | Stand: 26.10.2020</p>
+            <div class="table-responsive">
+                <table class="table table-striped text-white table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>bestätigte Fälle:</td>
+                            <td><b>0</b></td>
+                        </tr>
+                        <tr>
+                            <td>bestätigte Neuinfektionen:</td>
+                            <td><b>0</b></td>
+                        </tr>
+                        <tr>
+                            <td>davon Intensiv-Patienten:</td>
+                            <td><b>0</b></td>
+                        </tr>
+                        <tr>
+                            <td>bestätigte Todesfälle:</td>
+                            <td><b>0</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h5>Eingeleitete Gegenmaßnahmen im Spielcenter-Chemnitz</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-danger">22.03.2020 - Komplette Schließung der Anlage für
+                    unbestimmte Zeit auf Geheiß der Regierung</li>
+                <li class="list-group-item list-group-item-danger">22.05.2020 - Wiedereröffnung mit Umsetzung eines
+                    genehmigten Hygiene-Schutz-Konzeptes für unsere Gäste</li>
+                <li class="list-group-item list-group-item-danger">16.10.2020 - Anpassung und Erweiterung des
+                    Hygiene-Schutz-Konzeptes</li>
+                <li class="list-group-item list-group-item-danger">02.11.2020 - erneute Schließung auf Geheiß der
+                    Regierung.</li>
+            </ul>
+            <BR />
+            <h5>Kostenausgleich durch staatliche Unterstützung</h5>
+            <div class="table-responsive">
+                <table class="table table-striped text-white table-borderless">
+                    <thead>
+                        <tr>
+                            <td>
+                                <B>Betriebliche Aufwendungen</B>
+                            </td>
+                            <td>
+                                <B>Staatliche Zuwendungen</B>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                (* alle Angaben sind gerundet)
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item list-group-item-danger">Entsorgung nicht haltbarer Waren 2500 €
+                                    </li>
+                                    <li class="list-group-item list-group-item-danger">Miete April: 27000 €<br />Miete Mai:
+                                        27000 €</li>
+                                    <li class="list-group-item list-group-item-danger">Strom April: 1800 €<br />Strom Mai: 1800
+                                        €</li>
+                                    <li class="list-group-item list-group-item-danger">Krankenkassen &amp; SV-Kosten April: 5000
+                                        €<br />Krankenkassen &amp; SV-Kosten Mai: 5000 €</li>
+                                    <li class="list-group-item list-group-item-danger">Verwaltung April: 2500 €<br />Verwaltung
+                                        Mai: 2500 €</li>
+                                    <li class="list-group-item list-group-item-danger">Kosten für Rechtsstreit durch Pandemie:
+                                        5000 €</li>
+                                    <li class="list-group-item list-group-item-danger">Umsetzung Hygiene-Konzept: 1500 €</li>
+                                    <li class="list-group-item list-group-item-danger">Zusatzkosten Desinfektionsmittel: 2000 €
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <BR />
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item list-group-item-danger">Einmalzuwendung: 15000 €</li>
+                                    <li class="list-group-item list-group-item-danger">(rückzuzahlender Kredit: 50000 €)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                <B>GESAMT: 83600 €</B>
+                            </td>
+                            <td>
+                                <B>GESAMT: 15000 € (65000 €)</B>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer d-flex flex-column">
+        <a href="<?= base_url("hygienekonzept") ?>" class="btn btn-danger mt-auto"><i class="fas fa-shield-virus"></i> aktuelles Hygiene-Konzept</a>
+    </div>
+</div>
