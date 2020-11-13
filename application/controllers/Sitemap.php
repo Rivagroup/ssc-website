@@ -31,6 +31,6 @@ class Sitemap extends CI_Controller
             array("loc" => base_url("buffet/details/Vital"), "lastmod" => "2020-11-13T09:00:00+00:00", "priority" => "0.4")
         ];
         header("Content-Type: text/xml;charset=iso-8859-1");
-        $this->load->view("seo/sitemap", $data);
+        $this->load->view("sitemap/sitemap", $data);
     }
 }
