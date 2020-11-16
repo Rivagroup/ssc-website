@@ -19,7 +19,7 @@ class Start extends MY_ContentController
         foreach ($this->meta as $meta => $daten) {
             $data[$meta] = $daten;
         }
-        $data['title'] .= '- Das Freizeitzentrum in Chemnitz';
+        $data['title'] .= '- Das Spiel- und Freizeitzentrum in Chemnitz.';
         $data['main_content'] = 'start/start_content';
         $this->load->view('template', $data);
     }
