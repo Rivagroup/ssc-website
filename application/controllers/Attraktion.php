@@ -45,7 +45,7 @@ class Attraktion extends MY_ContentController
         $data['title'] .= '- Adventure Minigolf Chemnitz';
         $data['attraktionHeaderImageUrl'] = base_url("/assets/images/slider_golf.jpg");
         $data['attraktionTitle'] = "Adventure Minigolf Chemnitz";
-        $data['attraktionDesc'] = "Erlebt die erste Schwarzlicht Minigolf Anlage mit einer Fläche von 500m2 nun auch in Chemnitz. Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Motiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen. Der Freizeitspaß ist natürlich wetterunabhängig und eignet sich daher sehr gut ganzjährig für gemeinsame Aktivitäten, egal ob Junggesellenabschied, Geburtstag, Familienausflug.";
+        $data['attraktionDesc'] = "Erlebt die erste Schwarzlicht Minigolf Anlage mit einer Fläche von 500m² nun auch in Chemnitz. Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Motiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen. Der Freizeitspaß ist natürlich wetterunabhängig und eignet sich daher sehr gut ganzjährig für gemeinsame Aktivitäten, egal ob Junggesellenabschied, Geburtstag, Familienausflug.";
         $data['attraktionUrl'] = "https://minigolf-chemnitz.de";
         $data['attraktionGallery'] = [
             array('url' => base_url("/assets/images/slider_fotos spielcenter_minigolf.png"), 'alt' => "Adventure Minigolf Chemnitz - Spielfeld 1"),
