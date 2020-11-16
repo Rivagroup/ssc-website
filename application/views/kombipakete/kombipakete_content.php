@@ -1,4 +1,4 @@
-<h1 class="d-none">Kombipakete</h1>
+<h1 class="d-none">Spielcenter Chemnitz Kombipakete</h1>
 <h2 class="d-none">Kindergeburtstag</h2>
 <!-- Bowling kombis-->
 <a name="bowling"></a>
