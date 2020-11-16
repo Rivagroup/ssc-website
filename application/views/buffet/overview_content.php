@@ -1,8 +1,8 @@
-<h1 class="d-none">Buffets</h1>
+<h1 class="d-none">Spielcenter Chemnitz - Buffets Übersicht</h1>
 <div class="card-columns">
     <?php foreach ($buffets as $buffet) : ?>
         <div class="card">
-            <img src="<?= $buffet['img']; ?>" class="card-img-top" alt="<?= $buffet['title']; ?>">
+            <img src="<?= $buffet['img']; ?>" class="card-img-top" alt="Buffet <?= $buffet['title']; ?> Foto">
             <div class="card-body">
                 <h2 class="card-title h4"><?= $buffet['title']; ?></h2>
                 <div class="card-text small">
