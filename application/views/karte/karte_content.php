@@ -8,6 +8,11 @@
         <h1 class="card-title">Anfahrt Karte</h1>
         <h2>Öffentliche Verkehrsmittel</h2>
         <p class="card-text h2">
+            <p>Um in unser Freizeitcenter zu kommen und deine Freizeitaktivitäten wie
+                <a class="text-decoration-none text-dark" href="<?= base_url('/attraktion/lasertag'); ?>">Lasergame Chemnitz</a>, 
+                <a class="text-decoration-none text-dark" href="<?= base_url('/attraktion/escaperoom'); ?>">Escaperoom Chemnitz</a>, 
+                <a class="text-decoration-none text-dark" href="<?= base_url('/attraktion/minigolf'); ?>">Minigolf Chemnitz</a> und 
+                <a class="text-decoration-none text-dark" href="<?= base_url('/attraktion/bowling'); ?>">Bowling Chemnitz</a> wahrnehmen zu können benutze die Linie 4,5 oder 53 bis zum Vitacenter Chemnitz.</p>
             <span class="badge badge-primary">CVAG</span>
             <span class="badge badge-pill badge-success"><i class="fas fa-subway"></i> 4</span>
             <span class="badge badge-pill badge-success"><i class="fas fa-subway"></i> 5</span>

@@ -121,7 +121,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<h1 class="mt-3">Herzlich willkommen bei uns im Spielcenter Chemnitz</h1>
+<h1 class="mt-3">Spielcenter Chemnitz</h1>
 <p>In unserem Haus bieten wir zahlreiche Möglichkeiten, Ihre
 Veranstaltung zu Ihrer vollsten Zufriedenheit umzusetzen.
 Jedes Event ist einzigartig und bedarf einer individuellen Planung.
