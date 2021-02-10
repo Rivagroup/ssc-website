@@ -122,21 +122,22 @@
     </a>
 </div>
 <h1 class="mt-3">Freizeit erleben im Spielcenter Chemnitz</h1>
-<p>In unserem Freizeitzentrum bieten wir zahlreiche Möglichkeiten, Ihre
+<!-- p>In unserem Freizeitzentrum bieten wir zahlreiche Möglichkeiten, Ihre
 Veranstaltung zu Ihrer vollsten Zufriedenheit umzusetzen. Ob Firmenfeier,
 Teambuilding, Kindergeburtstag, Jungesellenabschied oder Familienfeier - 
 jedes Event ist einzigartig und bedarf einer individuellen Planung.
 Damit das möglich ist, haben wir ein modulares System entwickelt,
 welches es uns ermöglicht, noch flexibler auf Ihre speziellen
 Bedürfnisse einzugehen. Hinterlassen Sie bei Ihren Freunden, Geschäftspartnern oder der
-Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
+Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p-->
+<p>Familienfeiern sind langweilig? Nicht im Spielcenter Chemnitz! Battelt Euch bei einer Runde Bowling, Schwarzlicht Minigolf, Rätselräumen oder Lasergame und seht, wie toll die Zeit mit der Familie ist und wie viel Spaß Ihr haben werdet. Anschließend bietet das Buffet „El Americano“ nicht nur für die kleinen, sondern auch für die großen Superhelden und Gewinner der Spiele ausreichend Leckerbissen an. Denn ihr seid sicher ganz schön aus der Puste gekommen und seid nun froh über jede Stärkung. Wenn Ihr dann satt und voller neuer Energie seid, dürft Ihr gern in die nächste Runde starten.</p>
 <div class="card-deck mt-3">
     <div class="card">
         <div class="bg-white filtereffect h-100 d-flex flex-column justify-content-between">
             <img class="card-img-top" src="/assets/images/startseite_bowling.png" alt="teaser bowling" />
             <h2 class="card-header h5">Bowling Chemnitz</h2>
             <div class="card-body small">
-            Das Bowling Center für Chemnitz/Sachsen ✓ Günstig bowlen auf der größten Bowlingbahn in Chemnitz ☆, Bereits über 20000 zufriedene Bowling - Gäste!
+                Das Bowling Center für Chemnitz/Sachsen ✓ Günstig bowlen auf der größten Bowlingbahn in Chemnitz ☆, Bereits über 20000 zufriedene Bowling - Gäste!
             </div>
             <div class="card-footer">
                 <a href="https://bowling-chemnitz.de" class="btn d-block btn-primary" target="_blank">Bowling Chemnitz <i class="small fas fa-external-link-alt"></i></a>
@@ -149,7 +150,7 @@ Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
             <img class="card-img-top" src="/assets/images/startseite_escape.png" alt="teaser escape">
             <h2 class="card-header h5">Escaperoom Chemnitz</h2>
             <div class="card-body small">
-            Lasst im Escaperoom Chemnitz den grauen Alltag hinter Euch. Taucht ein in unsere geheimnisvollen Spiele und werdet Teil eines unvergesslichen Erlebnisses!
+                Lasst im Escaperoom Chemnitz den grauen Alltag hinter Euch. Taucht ein in unsere geheimnisvollen Spiele und werdet Teil eines unvergesslichen Erlebnisses!
             </div>
             <div class="card-footer">
                 <a href="https://escaperoom-chemnitz.de" class="btn d-block btn-primary" target="_blank">Escaperoom Chemnitz <i class="small fas fa-external-link-alt"></i></a>
@@ -162,7 +163,7 @@ Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
             <img class="card-img-top" src="/assets/images/startseite_lasertag.png" alt="teaser laser">
             <h2 class="card-header h5">Lasergame Chemnitz</h2>
             <div class="card-body small">
-            Höchster Spaßfaktor und absolutes Highlight auf 900m² Spielfläche. Das Beste was Chemnitz zu bieten hat. Sitzt du noch, oder spielst du schon? Nichts für Couch-Potatos!
+                Höchster Spaßfaktor und absolutes Highlight auf 900m² Spielfläche. Das Beste was Chemnitz zu bieten hat. Sitzt du noch, oder spielst du schon? Nichts für Couch-Potatos!
             </div>
             <div class="card-footer">
                 <a href="https://lasergame-chemnitz.de" class="btn d-block btn-primary" target="_blank">Lasergame Chemnitz <i class="small fas fa-external-link-alt"></i></a>
@@ -175,7 +176,7 @@ Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
             <img class="card-img-top" src="/assets/images/startseite_minigolf.png" alt="teaser minigolf">
             <h2 class="card-header h5">Minigolf Chemnitz</h2>
             <div class="card-body small">
-            Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Wandmotiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen.
+                Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Wandmotiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen.
             </div>
             <div class="card-footer">
                 <a href="https://minigolf-chemnitz.de" class="btn d-block btn-primary" target="_blank">Minigolf Chemnitz <i class="small fas fa-external-link-alt"></i></a>

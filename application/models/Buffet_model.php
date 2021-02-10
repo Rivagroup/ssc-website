@@ -6,9 +6,9 @@ class Buffet_model extends CI_Model
     private $buffets = [
         array(
             'title' => 'Americano',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Burger, viel Fleisch und Pommes.',
+            'desc' => 'Bei typisch amerikanischem Essen denkt man mit Sicherheit zuerst an Burger, viel Fleisch und Pommes. All das finden Sie bei unserem Buffet „American“ in Form eines selfmade Burger Corners, hausgemachten Spare Ribs und Chicken Nuggets, sowie Kartoffelspalten und vielem mehr. Ideal zum Schlemmen nach einer Runde Bowling im Spielcenter-Chemnitz, eben typisch amerikanisch.',
+            'img' => 'https://picsum.photos/640/241/',
             'starter' => array("Macaroni Salad", "Cowlslaw", "Bic Mäc Salad"),
             'entree' => array("hausgemachte Spare-Ribs", "Chicken Nuggets", "selfmade” Burger - Corner", "Chili con Carne", "Baked Beans", "gegrillte Maiskolben", "Ofenkartoffeln mit SourCreme", "Süßkartoffel-Pommes", "Kartoffelspalten", "Honey Mustard~ / SourCreme~ / Meerrettich-Knoblauch Dip"),
             'dessert' => array("Frische Obstplatte", "Mini-Donuts & Mini-Muffins"),
@@ -21,9 +21,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Avantgarde',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Die Avantgarde-Küche vereint Essen und Kunst. Lernen Sie ganz neue Geschmackserlebnisse mit unserem Buffet „Avantgarde“ kennen.',
+            'desc' => 'Die Avantgarde-Küche vereint Essen und Kunst. Lernen Sie ganz neue Geschmackserlebnisse mit unserem Buffet „Avantgarde“ kennen. Es erwarten Sie zartes Fleisch mit exotischen Beilagen, aber auch Fisch und vegetarische Gerichte. Kombiniert mit einer Auswahl an feinen Vorspeisen und traumhaften Desserts wird unser Buffet perfekt abgerundet für einen Genuss der besonderen Art. Mit Sicherheit lassen diese kreativen Ideen auch Ihre Kreativität und Ihren Einfallsreichtum aufblühen, damit Sie mit klugem Kopf und neuen Ideen einen Escape room im Spielcenter Chemnitz erfolgreich lösen können.',
+            'img' => 'https://picsum.photos/640/240/',
             'starter' => array(
                 "Kartoffel-Avocado-Salat mit Kresse",
                 "Zucchini-Carpaccio mit Ingwer-Vinaigrette",
@@ -53,9 +53,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'El Americano',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Familienfeiern sind langweilig? Nicht im Spielcenter Chemnitz!',
+            'desc' => 'Familienfeiern sind langweilig? Nicht im Spielcenter Chemnitz! Battelt Euch bei einer Runde Bowling, Schwarzlicht Minigolf, Rätselräumen oder Lasergame und seht, wie toll die Zeit mit der Familie ist und wie viel Spaß Ihr haben werdet. Anschließend bietet das Buffet „El Americano“ nicht nur für die kleinen, sondern auch für die großen Superhelden und Gewinner der Spiele ausreichend Leckerbissen an. Denn ihr seid sicher ganz schön aus der Puste gekommen und seid nun froh über jede Stärkung. Wenn Ihr dann satt und voller neuer Energie seid, dürft Ihr gern in die nächste Runde starten.',
+            'img' => 'https://picsum.photos/640/241/',
             'starter' => array(
                 "Auswahl von frischem Brot & Brötchen",
                 "Asia-Bratnudel auf Sticks direkt auch China-Town",
@@ -81,9 +81,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Heilige Nacht',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Weihnachten ist ein besinnliches Familienfest voller Gaumenfreuden.',
+            'desc' => 'Weihnachten ist ein besinnliches Familienfest voller Gaumenfreuden. Und unser Buffet „Heilige Nacht“ lässt für Liebhaber des Weihnachtsessens keine Wünsche offen. Planen Sie doch die Weihnachtsfeier Ihres Unternehmens bei uns im Spielcenter Chemnitz, bei dem dieses Buffet den krönenden Abschluss einer Runde Bowling, Adventure Minigolf oder Lasergame bildet.',
+            'img' => 'https://picsum.photos/640/242/',
             'starter' => array(
                 "Schwarzwurzelrahmsuppe mit roter Beete",
                 "Reibekuchen mit Räucherlachs und Salatgarnitur",
@@ -107,9 +107,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Italienisch',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Pasta, Pizza et amore! Das Buffet „Italienisch“ lässt den Traum von gutem italienischem Essen wahr werden.',
+            'desc' => 'Pasta, Pizza et amore! Das Buffet „Italienisch“ lässt den Traum von gutem italienischem Essen wahr werden und das lässt selbst den Italiener staunen. In Italien ist „la mamma“ das Zentrum der Familie. Wieso gönnen Sie nicht Ihrer Mama bei der nächsten Familienfeier eine kleine Auszeit, sodass sie sich um nichts kümmern muss? – Wir bereiten das Essen für die gesamte Familie zu, während Sie eine Runde Bowling spielen. Bon Appetit!',
+            'img' => 'https://picsum.photos/640/243/',
             'starter' => array(
                 "Tomate-Mozzarella mit frischem Basilikum",
                 "mediterrane Gemüseplatte",
@@ -137,9 +137,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Mr. President',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Speisen wie der Präsident, das hört sich doch fabelhaft an.',
+            'desc' => 'Speisen wie der Präsident, das hört sich doch fabelhaft an. Und möglich wird dies für Sie im Spielcenter Chemnitz. Ihr persönlicher Koch bereitet Ihnen ein Buffet mit einer großen Auswahl an Gerichten zu, die Ihnen mit Sicherheit ein hoheitliches Gefühl geben werden. Aber nicht nur der Präsident, der Gewinner beim Adventure Minigolf, sondern auch seine Untertanen, die nicht so erfolgreichen Spieler, dürfen gerne zugreifen und sich an dem Buffet „Mr President“ bedienen.',
+            'img' => 'https://picsum.photos/640/244/',
             'starter' => array(
                 "Auswahl von frischem Brot & Brötchen",
                 "Blattsalate der Saison mit Ceasar~, Yoghurt~ und Honey-Mustard-Dressing",
@@ -167,9 +167,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Perfect Game',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Und, war es für Sie ein „perfect game“? Sind Sie aus dem Escape Raum entkommen bevor die Zeit ablief?',
+            'desc' => 'Und, war es für Sie ein „perfect game“? Sind Sie aus dem Escape Raum entkommen bevor die Zeit ablief? Egal, ob Sie es geschafft haben oder nicht, die 60 Minuten Rätsel lösen haben Sie sicher hungrig gemacht. Stillen Sie diesen am besten an unserem Buffet „Perfect Game“, um diesen schönen Tag ausklingen zu lassen und vielleicht planen Sie ja schon, welchen Escape Raum Sie als nächstes mit Ihrem klugen Team bespielen wollen.',
+            'img' => 'https://picsum.photos/640/245/',
             'starter' => array(
                 "Tomate-Mozzarella mit frischem Basilikum",
                 "gefüllte Peperoni, Tomaten & Champignons",
@@ -197,9 +197,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Pure Burger',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Unser „Pure Burger“ Buffet gibt Ihnen die Möglichkeit, selbst aktiv zu werden und Ihre eigenen Burger zu kreieren.',
+            'desc' => 'Unser „Pure Burger“ Buffet gibt Ihnen die Möglichkeit, selbst aktiv zu werden und Ihre eigenen Burger zu kreieren. Wählen Sie aus unserem Big Selfmade Burger Corner Ihre liebsten Zutaten selbst und stellen Sie sich so Ihren Traumburger zusammen. Mit Steakhouse-Fries oder Wedges und dem passenden Dip wird Ihr Burger zum Hit. Dieses Buffet erfreut Kinder und Erwachsene gleichermaßen. Also, worauf warten Sie noch? Ran an die Burger!',
+            'img' => 'https://picsum.photos/640/246/',
             'starter' => array(
                 "Cowlslaw",
                 "Bic Mäc Salad"
@@ -224,9 +224,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Running Man',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Beim Lasergame Chemnitz waren Sie der „running man“, der alle anderen getroffen und somit die meisten Punkte erzielt hat?',
+            'desc' => 'Beim Lasergame Chemnitz waren Sie der „running man“, der alle anderen getroffen und somit die meisten Punkte erzielt hat? Herzlichen Glückwunsch, dann dürfen Sie im Anschluss gerne noch unser Buffet „Running Man“ genießen, um neue Energie zu tanken und danach ins nächste Spiel zu starten! Nur eine kleine Bitte: gönnen Sie auch den Verlierern eine Kleinigkeit von dem leckeren Essen, Sie können es wahrscheinlich besser gebrauchen, um Ihre Niederlage zu verkraften.',
+            'img' => 'https://picsum.photos/640/247/',
             'starter' => array(
                 "bunter, frischer gemischter Salat",
                 "Kartoffelsalat mit Radieschen und Lauch",
@@ -256,9 +256,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Rustikales Buffet',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Unser rustikales Buffet ist – wie der Name schon erahnen lässt – für alle diejenigen, die auf deftiges Essen und Hausmannskost stehen.',
+            'desc' => 'Unser rustikales Buffet ist – wie der Name schon erahnen lässt – für alle diejenigen, die auf deftiges Essen und Hausmannskost stehen. Einfach perfekt, wenn Ihnen beim Lasergame Chemnitz die Puste ausgegangen ist, Sie nach dem Lösen einer unserer Escaperäume im Spielcenter Chemnitz den Kopf wieder freibekommen wollen, die Runde Adventure Minigolf mit ihren Kindern Sie viele Nerven gekostet hat oder die Kollegen Sie beim Bowling mal wieder abgezogen haben – nach einem kräftig deftigen Essen fühlen Sie sich umso stärker und gewinnen sicher bei Ihrem nächsten Besuch im Spielcenter Chemnitz.',
+            'img' => 'https://picsum.photos/640/248/',
             'starter' => array(
                 "Hausgemachte Fleischpflanzerl",
                 "Kalter Schweinebraten mit Meerrettich",
@@ -286,9 +286,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Schulanfänger',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Bei unserem Buffet „Schulanfänger“ ist nicht nur für die „kleinen Großen“, sondern auch für die Erwachsenen alles dabei.',
+            'desc' => 'Bei unserem Buffet „Schulanfänger“ ist nicht nur für die „kleinen Großen“, sondern auch für die Erwachsenen alles dabei. Und bei der ganzen Aufregung, die dieser Tag mit sich bringt, sollten Sie sicher gehen, dass alle Gäste gut gestärkt werden. Damit ihre Feier zum Schulanfang im Spielcenter Chemnitz nicht nur geschmacklich ein Volltreffer wird, spielen Sie doch mit Ihren Sprösslingen noch eine Runde Bowling, Adventure Minigolf oder Lasergame. Ihre Kinder werden so schnell erwachsen und den Schulanfang feiert man nur einmal im Leben, also machen Sie diesen zu etwas Besonderem.',
+            'img' => 'https://picsum.photos/640/249/',
             'starter' => array(
                 "Tomate-Mozarella-Platte",
                 "bunte gemischte Gemüse-Stick-Platte",
@@ -320,9 +320,9 @@ class Buffet_model extends CI_Model
         ),
         array(
             'title' => 'Vital',
-            'teaser' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-            'desc' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-            'img' => 'http://lorempixel.com/640/240/',
+            'teaser' => 'Unser Buffet „Vital“ ist ideal für alle diejenigen, die sich nach dem Bowling oder Lasergame im Spielcenter Chemnitz nicht mehr ganz so fit und vital fühlen.',
+            'desc' => 'Unser Buffet „Vital“ ist ideal für alle diejenigen, die sich nach dem Bowling oder Lasergame im Spielcenter Chemnitz nicht mehr ganz so fit und vital fühlen. So ein Spiel mit der Familie oder den Freunden kann einen ganz schön auspowern. Tanken Sie neue Kraft mit unseren ausgewählten frischen Speisen, die garantiert wieder Leben in Ihre müden Knochen und Muskeln bringen. Und genießen Sie die kurze Auszeit, denn nach der Pause können Sie sich gestärkt und wieder vollen Akkus ins nächste Spiel starten.',
+            'img' => 'https://picsum.photos/640/250/',
             'starter' => array(
                 "Antipasti-Salat mit Schafskäse und Pesto-Dressing",
                 "Salat mit Birnen, Zwiebeln und Blauschimmelkäse",
