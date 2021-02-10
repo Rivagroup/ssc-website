@@ -122,15 +122,14 @@
     </a>
 </div>
 <h1 class="mt-3">Freizeit erleben im Spielcenter Chemnitz</h1>
-<!-- p>In unserem Freizeitzentrum bieten wir zahlreiche Möglichkeiten, Ihre
+<p>In unserem Freizeitzentrum bieten wir zahlreiche Möglichkeiten, Ihre
 Veranstaltung zu Ihrer vollsten Zufriedenheit umzusetzen. Ob Firmenfeier,
 Teambuilding, Kindergeburtstag, Jungesellenabschied oder Familienfeier - 
 jedes Event ist einzigartig und bedarf einer individuellen Planung.
 Damit das möglich ist, haben wir ein modulares System entwickelt,
 welches es uns ermöglicht, noch flexibler auf Ihre speziellen
 Bedürfnisse einzugehen. Hinterlassen Sie bei Ihren Freunden, Geschäftspartnern oder der
-Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p-->
-<p>Familienfeiern sind langweilig? Nicht im Spielcenter Chemnitz! Battelt Euch bei einer Runde Bowling, Schwarzlicht Minigolf, Rätselräumen oder Lasergame und seht, wie toll die Zeit mit der Familie ist und wie viel Spaß Ihr haben werdet. Anschließend bietet das Buffet „El Americano“ nicht nur für die kleinen, sondern auch für die großen Superhelden und Gewinner der Spiele ausreichend Leckerbissen an. Denn ihr seid sicher ganz schön aus der Puste gekommen und seid nun froh über jede Stärkung. Wenn Ihr dann satt und voller neuer Energie seid, dürft Ihr gern in die nächste Runde starten.</p>
+Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
 <div class="card-deck mt-3">
     <div class="card">
         <div class="bg-white filtereffect h-100 d-flex flex-column justify-content-between">
