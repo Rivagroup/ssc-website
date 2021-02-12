@@ -13,7 +13,7 @@
                         <a class="nav-link text-muted" href="<?= base_url('/impressum'); ?>"><i class="fas fa-user-shield"></i> IMPRESSUM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-muted" href="<?= base_url('/impressum'); ?>"><i class="far fa-id-card"></i> DATENSCHUTZ</a>
+                        <a class="nav-link text-muted" href="<?= base_url('/datenschutz'); ?>"><i class="far fa-id-card"></i> DATENSCHUTZ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-muted" href="<?= base_url('/corona'); ?>"><i class="fas fa-head-side-virus"></i> COVID-19</a>

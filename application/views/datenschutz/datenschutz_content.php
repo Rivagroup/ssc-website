@@ -16,7 +16,7 @@
             Zweck und Ihre Rechte daraus.
         </p>
         <p>
-            Die Datenverarbeitung auf der Homepage www.bowling-chemnitz.de erfolgt zum Zeitpunkt der
+            Die Datenverarbeitung auf der Homepage spielcenter-chemnitz.de erfolgt zum Zeitpunkt der
             Datenerhebung durch die verantwortliche Stelle und durch den Verantwortlichen:
         </p>
         <p>

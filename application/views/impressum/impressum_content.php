@@ -11,8 +11,8 @@
                 Deutschland
             </address>
             <p>
-                <a class="btn btn-primary" href="tel:+4937123627835">
-                    <i class="fas fa-phone"></i> +49 371 236 278 35
+                <a class="btn btn-primary" href="tel:+4937133423340">
+                    <i class="fas fa-phone"></i> +49 371 33 42 33 40
                 </a>
             </p>
             <p>

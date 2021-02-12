@@ -33,6 +33,11 @@ class Attraktion extends MY_ContentController
             array('url' => base_url("/assets/images/slider_fotos spielcenter_bowling2.png"), 'alt' => "Bowling Chemnitz - Eingangsbereich"),
             array('url' => base_url("/assets/images/slider_fotos spielcenter_bowling4.png"), 'alt' => "Bowling Chemnitz - Bowlingbahn")
         ];
+        $data['attraktionGalleryThumbnails'] = [
+            array('url' => base_url("/assets/images/thumbnail-000.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahnen"),
+            array('url' => base_url("/assets/images/thumbnail-001.jpg"), 'alt' => "Bowling Chemnitz - Eingangsbereich"),
+            array('url' => base_url("/assets/images/thumbnail-003.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahn")
+        ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
     }
@@ -50,6 +55,10 @@ class Attraktion extends MY_ContentController
         $data['attraktionGallery'] = [
             array('url' => base_url("/assets/images/slider_fotos spielcenter_minigolf.png"), 'alt' => "Adventure Minigolf Chemnitz - Spielfeld 1"),
             array('url' => base_url("/assets/images/slider_fotos spielcenter_minigolf2.png"), 'alt' => "Adventure Minigolf Chemnitz - Spielfeld 2")
+        ];
+        $data['attraktionGalleryThumbnails'] = [
+            array('url' => base_url("/assets/images/thumbnail-007.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahnen"),
+            array('url' => base_url("/assets/images/thumbnail-008.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahnen")
         ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
@@ -69,6 +78,10 @@ class Attraktion extends MY_ContentController
             array('url' => base_url("/assets/images/slider_fotos spielcenter_esc_knast.png"), 'alt' => "Escaperoom Chemnitz - Prison Break"),
             array('url' => base_url("/assets/images/slider_fotos spielcenter_esc_psych.png"), 'alt' => "Escaperoom Chemnitz - Psychiatrie")
         ];
+        $data['attraktionGalleryThumbnails'] = [
+            array('url' => base_url("/assets/images/thumbnail-004.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahnen"),
+            array('url' => base_url("/assets/images/thumbnail-005.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahnen")
+        ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);
     }
@@ -85,6 +98,9 @@ class Attraktion extends MY_ContentController
         $data['attraktionUrl'] = "https://lasergame-chemnitz.de";
         $data['attraktionGallery'] = [
             array('url' => base_url("/assets/images/slider_fotos spielcenter_lasertag.png"), 'alt' => "Lasergame Chemnitz - Spielfeld 900m²")
+        ];
+        $data['attraktionGalleryThumbnails'] = [
+            array('url' => base_url("/assets/images/thumbnail-006.jpg"), 'alt' => "Bowling Chemnitz - Bowlingbahnen")
         ];
         $data['main_content'] = 'attraktion/attraktion_details';
         $this->load->view('template', $data);

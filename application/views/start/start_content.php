@@ -136,7 +136,7 @@ Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
             <img class="card-img-top" src="/assets/images/startseite_bowling.png" alt="teaser bowling" />
             <h2 class="card-header h5">Bowling Chemnitz</h2>
             <div class="card-body small">
-                Das Bowling Center für Chemnitz/Sachsen ✓ Günstig bowlen auf der größten Bowlingbahn in Chemnitz ☆, Bereits über 20000 zufriedene Bowling - Gäste!
+                Das Bowling Center für Chemnitz im schönen Sachsen - Günstig bowlen auf der größten Bowlingbahn mit 22-AMF-Bahnen, leckerem Essen und freundlichem Personal.
             </div>
             <div class="card-footer">
                 <a href="https://bowling-chemnitz.de" class="btn d-block btn-primary" target="_blank">Bowling Chemnitz <i class="small fas fa-external-link-alt"></i></a>
@@ -175,7 +175,7 @@ Familie einen bleibenden Eindruck. Wir helfen Ihnen dabei!</p>
             <img class="card-img-top" src="/assets/images/startseite_minigolf.png" alt="teaser minigolf">
             <h2 class="card-header h5">Minigolf Chemnitz</h2>
             <div class="card-body small">
-                Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die gesamte Spielfläche wurde mit Wandmotiven in fluoreszierenden Farben gestaltet, die im Schwarzlicht gut zur Geltung kommen.
+                Ihr bewegt euch spielerisch auf einem 16-Loch-Indoor-Minigolf-Parcours durch 4 unterschiedliche Fantasiewelten. Die Spielfläche wurde mit fluoreszierenden Farben gestaltet.
             </div>
             <div class="card-footer">
                 <a href="https://minigolf-chemnitz.de" class="btn d-block btn-primary" target="_blank">Minigolf Chemnitz <i class="small fas fa-external-link-alt"></i></a>

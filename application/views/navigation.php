@@ -52,7 +52,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="https://lasergame-chemnitz.de/angebote/allyoucantag" target="_blank">All You Can Tag <i class="small fas fa-external-link-alt"></i></a>
-                    <a class="dropdown-item disabled" href="<?= base_url('silvester'); ?>">Silvester 2021/22</a>
+                    <a class="dropdown-item" href="<?= base_url('silvester'); ?>">Silvester 2021/22</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item disabled" href="#">Bowling Brunch</a>
                     <a class="dropdown-item disabled" href="#">Jackpot-Bowling</a>

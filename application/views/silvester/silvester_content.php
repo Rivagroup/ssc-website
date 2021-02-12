@@ -69,13 +69,12 @@
 </div>
 <div id="goldenWithCarousel" class="container">
     <div class="text-center">
-        <img class="img-fluid" src="<?= base_url('/assets/images/silvester/schriftzug_2.png'); ?>" alt="Schriftzug Silvester Party"><br>
-        <span class="eyecatcher slogan">Lasst Euch von uns verzaubern und genießt die Nacht in ein neues
-            Jahr.</span><br>
-        <a href="#all_inclusive"><img class="img-fluid w-25" src="<?= base_url('/assets/images/silvester/ticket.png'); ?>" alt="Firework"></a>
+        <!-- img class="img-fluid" src="<?= base_url('/assets/images/silvester/schriftzug_2.png'); ?>" alt="Schriftzug Silvester Party"><br -->
+        <span class="eyecatcher slogan"><b>Silvester 2021/22</b> <br/> Weitere Informationen folgen ...</span><br>
+        <!-- a href="#all_inclusive"><img class="img-fluid w-25" src="<?= base_url('/assets/images/silvester/ticket.png'); ?>" alt="Firework"></a-->
     </div>
 </div>
-<div class="mb-5">
+<!-- div class="mb-5">
     <p>
         Auch dieses Jahr werden wir wieder gebührend beenden, trotzend der "widrigen" Umstände des
         Jahres. All unseren Gästen und Freunden wollen wir wie gewohnt einen schönen sowie lebhaften Start in
@@ -87,9 +86,10 @@
     </p>
     <p>
         Für weitere Informationen oder Reservierungen wählt einfach die <a class="badge badge-dark" href="tel:+4937133423340"><span>0371 / 334 2 334 0</span></a> oder schreibt
-        eine Mail an <a class="badge badge-dark" href="mailto:kontakt@spielcenter-chemnitz.de"><span>kontakt@spielcenter-chemnitz.de</span></a>.</p>
+        eine Mail an <a class="badge badge-dark" href="mailto:kontakt@spielcenter-chemnitz.de"><span>kontakt@spielcenter-chemnitz.de</span></a>
+    </p-->
 </div>
-<div class="mb-5">
+<!-- div class="mb-5">
     <div class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
             <div class="card border-0 mb-3 bg-light h-100 text-dark">
@@ -417,4 +417,4 @@
     <p>Schreib uns eine E-Mail an <a class="badge badge-dark" href="mailto:kontakt@spielcenter-chemnitz.de">kontakt@spielcenter-chemnitz.de</a> und sichere Dir
         jetzt Deine Tickets oder ruf uns direkt an.</p>
     <a class="btn btn-dark btn-lg d-block" href="tel:+4937133423340">Jetzt anrufen</a>
-</div>
+</div-->
