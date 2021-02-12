@@ -17,7 +17,6 @@
                     <a class="dropdown-item disabled" href="#">Ferientickets</a>
                     <a class="dropdown-item disabled" href="#">Firmenfeiern/Teambuilding</a>
                     <a class="dropdown-item disabled" href="#">Junggesellenabschiede</a>
-                    <a class="dropdown-item disabled" href="#">Schülertickets</a>
                     <a class="dropdown-item disabled" href="#">Weihnachtfeiern</a>
                 </div>
             </li>
@@ -33,13 +32,12 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-utensils"></i> Gastronomie
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <!-- a class="dropdown-item" href="<?= base_url('buffet'); ?>">Buffets</a>
-                    <div class="dropdown-divider"></div -->
-                    <a class="dropdown-item disabled" href="#">Buffets</a>
+                    <a class="dropdown-item" href="<?= base_url('buffet'); ?>">Buffets</a>
+                    <div class="dropdown-divider"></div>
                     <a class="dropdown-item disabled" href="#">à la carte</a>
                     <a class="dropdown-item disabled" href="#">Catering</a>
                     <a class="dropdown-item disabled" href="#">Exclusive-Party & DJ</a>
@@ -54,7 +52,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="https://lasergame-chemnitz.de/angebote/allyoucantag" target="_blank">All You Can Tag <i class="small fas fa-external-link-alt"></i></a>
-                    <a class="dropdown-item bg-warning" href="<?= base_url('silvester'); ?>">Silvester 2020/21</a>
+                    <a class="dropdown-item disabled" href="<?= base_url('silvester'); ?>">Silvester 2021/22</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item disabled" href="#">Bowling Brunch</a>
                     <a class="dropdown-item disabled" href="#">Jackpot-Bowling</a>

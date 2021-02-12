@@ -1,5 +1,5 @@
 <div class="card">
-    <img src="<?= $buffet['img']; ?>" class="card-img-top" alt="<?= $buffet['title']; ?>">
+    <!-- img src="<?= $buffet['img']; ?>" class="card-img-top" alt="<?= $buffet['title']; ?>"-->
     <div class="card-body">
         <h2 class="card-title h4"><?= $buffet['title']; ?></h2>
         <div class="card-text">

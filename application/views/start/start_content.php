@@ -17,13 +17,13 @@
         <li data-target="#sccCarousel" data-slide-to="14"></li>
     </ol>
     <div class="carousel-inner rounded">
-        <div class="carousel-item active">
+        <!-- div class="carousel-item active">
             <img class="d-block w-100" src="/assets/images/slider_silvester2020.png" alt="Silvester 2020">
             <div class="carousel-caption">
                 <a href="<?= base_url('/silvester'); ?>" class="stretched-link"><span class="d-none">Silvester 2020/21 im Spielcenter Chemnitz</span></a>
             </div>
-        </div>
-        <div class="carousel-item">
+        </div -->
+        <div class="carousel-item active">
             <img class="d-block w-100" src="/assets/images/slider_bowling.jpg" alt="Bowling Chemnitz">
             <div class="carousel-caption">
                 <h2 class="carousel-caption-title">BOWLING<br>CHEMNITZ</h2>
@@ -73,12 +73,12 @@
                 <a href="<?= base_url('/attraktion/escaperoom'); ?>" class="stretched-link"><span class="d-none">Exitgame Escaperoom in Chemnitz</span></a>
             </div>
         </div>
-        <div class="carousel-item">
+        <!-- div class="carousel-item">
             <img class="d-block w-100" src="/assets/images/slider_silvester2020_2.png" alt="Silvester 2020">
             <div class="carousel-caption">
                 <a href="<?= base_url('/silvester'); ?>" class="stretched-link"><span class="d-none">Silvester 2020/21 im Spielcenter Chemnitz</span></a>
             </div>
-        </div>
+        </div -->
         <div class="carousel-item">
             <img class="d-block w-100" src="/assets/images/slider_golf.jpg" alt="Minigolf Chemnitz">
             <div class="carousel-caption">
